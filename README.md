@@ -5,7 +5,7 @@ Self-directed Systems & DevOps Engineer — Linux · Kubernetes · GitOps · Go 
 I build, operate, and patch production-grade infrastructure and cloud-native systems. Based in Iași, Romania. Currently contributing to upstream CNCF projects and open for remote DevOps / Platform Engineering / SRE roles across the EU.
 
 - 🔭 Operating declarative GitOps infrastructure on K3s (OCI Ampere A1 ARM64)
-- 🛠️ Upstream contributions:
+- 🛠️ Active Upstream Pull Requests:
   - **[cert-manager/cert-manager#9369](https://github.com/cert-manager/cert-manager/pull/9369)** — Thread-safe mock synchronization resolving data race warnings under `-race`.
   - **[kubernetes-sigs/cluster-api#14248](https://github.com/kubernetes-sigs/cluster-api/pull/14248)** — Memory race condition fix in in-memory proxy networking using `sync.Mutex`.
 - 📄 Individual Contributor, The Linux Foundation & CNCF
