@@ -5,9 +5,12 @@ Self-directed Systems & DevOps Engineer — Linux · Kubernetes · GitOps · Go 
 I build, operate, and patch production-grade infrastructure and cloud-native systems. Based in Iași, Romania. Currently contributing to upstream CNCF projects and open for remote DevOps / Platform Engineering / SRE roles across the EU.
 
 - 🔭 Operating declarative GitOps infrastructure on K3s (OCI Ampere A1 ARM64)
-- 🛠️ Active Upstream Pull Requests:
-  - **[cert-manager/cert-manager#9369](https://github.com/cert-manager/cert-manager/pull/9369)** — Thread-safe mock synchronization resolving data race warnings under `-race`.
-  - **[kubernetes-sigs/cluster-api#14248](https://github.com/kubernetes-sigs/cluster-api/pull/14248)** — Memory race condition fix in in-memory proxy networking using `sync.Mutex`.
+- 🛠️ Merged upstream contributions:
+  - [kubernetes-sigs/cluster-api#14248](https://github.com/kubernetes-sigs/cluster-api/pull/14248) — Data race fix in the in-memory test proxy (`sync.Mutex` on connection deadlines) · v1.15
+  - [kubernetes-sigs/cluster-api#14284](https://github.com/kubernetes-sigs/cluster-api/pull/14284) — Test isolation fix: reset global viper state in clusterctl tests · v1.15
+  - [kubernetes-sigs/cluster-api#14285](https://github.com/kubernetes-sigs/cluster-api/pull/14285) — Test isolation fix: kubeconfig tests no longer mutate a shared fixture · v1.15
+  - [hashicorp/terraform-provider-aws#50084](https://github.com/hashicorp/terraform-provider-aws/pull/50084) — Fix provider crash in `aws_autoscaling_group` on an empty `capacity_reservation_target` · v6.67.0
+- 🔍 In review: [cluster-api-provider-aws#6269](https://github.com/kubernetes-sigs/cluster-api-provider-aws/pull/6269) (envtest isolation, [#6268](https://github.com/kubernetes-sigs/cluster-api-provider-aws/issues/6268)), cert-manager, CloudNativePG, Argo CD, Helm
 - 📄 Individual Contributor, The Linux Foundation & CNCF
 - 📜 Oracle Cloud Infrastructure Certified
 - 📫 [LinkedIn](https://www.linkedin.com/in/cosmin-neculcea-288955257/)
